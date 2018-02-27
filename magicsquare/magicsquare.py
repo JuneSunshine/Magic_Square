@@ -179,15 +179,15 @@ def main():
     elif (n % 2 == 0):
         output = create_single_even_square(n)
     else:
-        print "Please input a positive valid number"
-
-    print "The magic square is as follows : "
-    print output
+        print ("Please input a positive valid number")
+        
+    print ("The magic square is as follows : ")
+    print (output)
 
     if check(n,output) is False:
-        print " The solution is wrong, magic square fails ..."
+        print (" The solution is wrong, magic square fails ...")
     else:
-        print " The solution is correct, you have the magic square of size %s" % (int(round(n**2)))
+        print (" The solution is correct, you have the magic square of size %s" % (int(round(n**2))))
 
 
 if __name__ == '__main__':
