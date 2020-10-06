@@ -170,6 +170,7 @@ def check(n,matrix):
 def main():
 
     n = input("Magic Square starts! Please enter the length of square you want : ")
+    n = int(n)
     if (n % 2 != 0):
         matrix = create_field(n)
         output = create_odd_square(matrix)
